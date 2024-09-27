@@ -137,7 +137,7 @@
         "status": "lunas"
       },
       "nomorKontrak": "1234567890",
-      "nomorBKPB": "B1234XYZ789",
+      "nomorBPKB": "B1234XYZ789",
       "tipeKendaraan": "mobil",
       "jadwal": 1695475200000,
       "real": 1000000,
@@ -157,11 +157,71 @@
         "status": "lunas"
       },
       "nomorKontrak": "9876543210",
-      "nomorBKPB": "AB1234XYZ789",
+      "nomorBPKB": "AB1234XYZ789",
       "tipeKendaraan": "mobil",
       "jadwal": "2024-09-24T10:00:00Z",
       "real": 60000000,
       "estimasi": 65000000
+    },
+    {
+      "id": "48db",
+      "customer": {
+        "id": "5acd",
+        "name": "Daniel Aditya",
+        "email": "daniel@example.com",
+        "address": {
+          "street": "Jl. Kemang Timur No.10",
+          "city": "Jakarta Selatan",
+          "postalCode": "12345"
+        },
+        "status": "lunas"
+      },
+      "nomorKontrak": "123",
+      "nomorBPKB": "abcd",
+      "tipeKendaraan": "mobil",
+      "jadwal": 1727481600000,
+      "real": 1,
+      "estimasi": 11
+    },
+    {
+      "id": "b6c0",
+      "customer": {
+        "id": "4ghy",
+        "name": "Kevin Hartono",
+        "email": "kevin@example.com",
+        "address": {
+          "street": "Jl. Kuningan Timur No.7",
+          "city": "Jakarta Selatan",
+          "postalCode": "12950"
+        },
+        "status": "macet"
+      },
+      "nomorKontrak": "543",
+      "nomorBPKB": "432",
+      "tipeKendaraan": "motor",
+      "jadwal": null,
+      "real": 44,
+      "estimasi": 555
+    },
+    {
+      "id": "b4db",
+      "customer": {
+        "id": "3jkl",
+        "name": "Rina Setiawan",
+        "email": "rina@example.com",
+        "address": {
+          "street": "Jl. Melawai No.5",
+          "city": "Jakarta Selatan",
+          "postalCode": "12730"
+        },
+        "status": "macet"
+      },
+      "nomorKontrak": "2222",
+      "nomorBPKB": "daf2",
+      "tipeKendaraan": "mobil",
+      "jadwal": 1727505000000,
+      "real": 2,
+      "estimasi": 2
     }
   ]
 }
