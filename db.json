@@ -1,0 +1,167 @@
+{
+  "customer": [
+    {
+      "id": "5acd",
+      "name": "Daniel Aditya",
+      "email": "daniel@example.com",
+      "address": {
+        "street": "Jl. Kemang Timur No.10",
+        "city": "Jakarta Selatan",
+        "postalCode": "12345"
+      },
+      "status": "lunas"
+    },
+    {
+      "id": "8fgh",
+      "name": "Farrell Hakim",
+      "email": "farrell@example.com",
+      "address": {
+        "street": "Jl. Mampang Prapatan No.12",
+        "city": "Jakarta Selatan",
+        "postalCode": "12650"
+      },
+      "status": "lancar"
+    },
+    {
+      "id": "3jkl",
+      "name": "Rina Setiawan",
+      "email": "rina@example.com",
+      "address": {
+        "street": "Jl. Melawai No.5",
+        "city": "Jakarta Selatan",
+        "postalCode": "12730"
+      },
+      "status": "macet"
+    },
+    {
+      "id": "7bde",
+      "name": "Gusti Ramadhan",
+      "email": "gusti@example.com",
+      "address": {
+        "street": "Jl. Tebet Barat No.8",
+        "city": "Jakarta Selatan",
+        "postalCode": "12840"
+      },
+      "status": "lunas"
+    },
+    {
+      "id": "4ghy",
+      "name": "Kevin Hartono",
+      "email": "kevin@example.com",
+      "address": {
+        "street": "Jl. Kuningan Timur No.7",
+        "city": "Jakarta Selatan",
+        "postalCode": "12950"
+      },
+      "status": "macet"
+    },
+    {
+      "id": "9ijk",
+      "name": "Peter Aditama",
+      "email": "peter@example.com",
+      "address": {
+        "street": "Jl. Menteng Raya No.3",
+        "city": "Jakarta Pusat",
+        "postalCode": "13060"
+      },
+      "status": "lancar"
+    },
+    {
+      "id": "2fcd",
+      "name": "Rini Iskandar",
+      "email": "rini@example.com",
+      "address": {
+        "street": "Jl. Sudirman No.15",
+        "city": "Jakarta Pusat",
+        "postalCode": "13170"
+      },
+      "status": "lunas"
+    },
+    {
+      "id": "6mno",
+      "name": "Reyhan Budi",
+      "email": "reyhan@example.com",
+      "address": {
+        "street": "Jl. Gatot Subroto No.9",
+        "city": "Jakarta Barat",
+        "postalCode": "13280"
+      },
+      "status": "lunas"
+    },
+    {
+      "id": "5uvw",
+      "name": "Eddy Sutanto",
+      "email": "eddy@example.com",
+      "address": {
+        "street": "Jl. Panjang No.22",
+        "city": "Jakarta Barat",
+        "postalCode": "13390"
+      },
+      "status": "lunas"
+    },
+    {
+      "id": "1qrs",
+      "name": "Nuel Pratama",
+      "email": "nuel@example.com",
+      "address": {
+        "street": "Jl. Grogol No.20",
+        "city": "Jakarta Barat",
+        "postalCode": "13410"
+      },
+      "status": "macet"
+    },
+    {
+      "id": "4hjt",
+      "name": "Andi Wiranto",
+      "email": "andi.Wiranto@example.com",
+      "address": {
+        "street": "Jl. Merdeka Raya No.17",
+        "city": "Bandung",
+        "postalCode": "40123"
+      },
+      "status": "macet"
+    }
+  ],
+  "reservasi": [
+    {
+      "id": "9xaz",
+      "customer": {
+        "id": "5acd",
+        "name": "Daniel Aditya",
+        "email": "daniel@example.com",
+        "address": {
+          "street": "Jl. Kemang Timur No.10",
+          "city": "Jakarta Selatan",
+          "postalCode": "12345"
+        },
+        "status": "lunas"
+      },
+      "nomorKontrak": "1234567890",
+      "nomorBKPB": "B1234XYZ789",
+      "tipeKendaraan": "mobil",
+      "jadwal": 1695475200000,
+      "real": 1000000,
+      "estimasi": 1200000
+    },
+    {
+      "id": "9bf4",
+      "customer": {
+        "id": "7eb3",
+        "name": "Aldi Saputra",
+        "email": "aldi.saputra@gmail.com",
+        "address": {
+          "street": "Jalan Sudirman No.23",
+          "city": "Jakarta Selatan",
+          "postalCode": "12910"
+        },
+        "status": "lunas"
+      },
+      "nomorKontrak": "9876543210",
+      "nomorBKPB": "AB1234XYZ789",
+      "tipeKendaraan": "mobil",
+      "jadwal": "2024-09-24T10:00:00Z",
+      "real": 60000000,
+      "estimasi": 65000000
+    }
+  ]
+}
